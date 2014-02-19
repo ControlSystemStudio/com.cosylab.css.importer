@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.importWizards">
+      <category
+            id="com.cosylab.css.eclipse.importer.wizard2.sampleCategory"
+            name="Control System Studio">
+      </category>
+      <wizard
+            category="com.cosylab.css.eclipse.importer.wizard2.sampleCategory"
+            class="org.csstudio.util.importwizard.wizard.CSSImportWizard"
+            icon="icons/eclipse.gif"
+            id="com.cosylab.css.eclipse.importer.wizard2.CSSImportWizard"
+            name="Existing project with dependencies into Workspace">
+         <description>
+            Import existing projects with all needed dependencies into workspace. The files will not be copied in the workspace.
+         </description>
+      </wizard>
+   </extension>
+
+</plugin>

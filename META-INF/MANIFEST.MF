@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CSS Project import wizard
+Bundle-SymbolicName: org.csstudio.util.importwizard;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: ESS, Cosylab <andrej.babic@cosylab.com>
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: .
+Require-Bundle: org.eclipse.core.resources,
+ org.eclipse.jface,
+ org.eclipse.equinox.preferences,
+ org.eclipse.ui.ide,
+ org.eclipse.equinox.registry,
+ org.eclipse.core.runtime;bundle-version="3.7.0"
